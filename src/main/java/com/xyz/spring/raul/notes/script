@@ -1,0 +1,20 @@
+create table author(
+	id	bigint,
+	firstname text,
+	lastname text,
+	books text,
+	primary key(id)
+);
+
+create table book(
+	id bigint,
+	title text,
+	isbn text,
+	author text,
+	primary key(id)
+);
+
+create table author_book(
+	book_id bigint,
+	author_id bigint
+)
