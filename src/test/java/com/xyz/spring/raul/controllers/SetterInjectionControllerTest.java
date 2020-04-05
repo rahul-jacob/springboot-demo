@@ -7,12 +7,12 @@ import com.xyz.spring.raul.service.GreetingsServiceImpl;
 
 public class SetterInjectionControllerTest {
 	
-	private SetterController controller;
+	private SetterInjectionController controller;
 	
 	@BeforeEach
 	public void setUp() {
-		controller = new SetterController();
-		controller.setGreetService(new GreetingsServiceImpl());
+		controller = new SetterInjectionController();
+		controller.setGreetingService(new GreetingsServiceImpl());
 	}
 	
 	@Test
