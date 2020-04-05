@@ -6,7 +6,7 @@ public class SetterInjectionController {
 	
 	private GreetingService greetService;
 	
-	public void setGreetService(GreetingService greetService) {
+	public void setGreetingService(GreetingService greetService) {
 		this.greetService = greetService;
 	}
 
