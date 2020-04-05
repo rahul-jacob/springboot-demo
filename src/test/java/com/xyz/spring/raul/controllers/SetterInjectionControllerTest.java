@@ -12,7 +12,7 @@ public class SetterInjectionControllerTest {
 	@BeforeEach
 	public void setUp() {
 		controller = new SetterInjectionController();
-		controller.setGreetService(new GreetingsServiceImpl());
+		controller.setGreetingService(new GreetingsServiceImpl());
 	}
 	
 	@Test
