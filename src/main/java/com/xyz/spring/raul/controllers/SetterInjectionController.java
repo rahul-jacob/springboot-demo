@@ -2,7 +2,7 @@ package com.xyz.spring.raul.controllers;
 
 import com.xyz.spring.raul.service.GreetingService;
 
-public class SetterController {
+public class SetterInjectionController {
 	
 	private GreetingService greetService;
 	
