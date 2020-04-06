@@ -1,0 +1,8 @@
+Primary bean is where we can have one or more beans of the same type and we want to say just use this bean for all the
+ type then mark the bean as primary.We can have several beans of the same type and we can have one of the beans of the
+ same type to be marked as @Primary, then the candinates beans whose dependency needs to be injected to them we don't
+ need to do any thing special i.e we need not provide the @Qualifier annotation.
+
+In short if we have multiple beans and one of them being the primary and the other's are not then the spring framework 
+in automatically inject the bean having the @Primary annotation if you have not mention @Qualifier annotation on the 
+candidate bean.
