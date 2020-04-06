@@ -1,4 +1,4 @@
-package com.xyz.spring.service;
+package com.xyz.spring.raul.service;
 
 import org.springframework.stereotype.Service;
 

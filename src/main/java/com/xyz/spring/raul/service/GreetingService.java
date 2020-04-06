@@ -1,4 +1,4 @@
-package com.xyz.spring.service;
+package com.xyz.spring.raul.service;
 
 public interface GreetingService {
 	public String greet();
