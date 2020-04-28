@@ -31,4 +31,9 @@ Consider marking one of the beans as @Primary, updating the consumer to accept m
 the application which one to start up either hindhi or spanish. we put 2 profiles in HindiService and SpanishService then specify the one to load in application.properties.
 spring.profiles.active=ES so here only the profile ES will be loaded. We have defined Profile annotation in to Services in hindi and spanish but now the profile with EN gets
 loaded which is spanish. and in hindi service we gave profile as IN hence the hindi service is discarded. Hence we avoided the above error.
+
+But we also have another approach of profile called default. Its possible to accept more than one Profile value for a class. by comma separate i.e @Profile({"EN","default"})
+if we are not configuring any active profiles in application.properties then the default profile will be loaded. Here in the eg for HindiGreetingServcie we gave the default
+profile and for SpanishGreetingService we gave ES Profile and we didn't configure any active profile. Then automatically the default Greeting which is the HindiGreetingService
+got injected to GreetingService. And since the SpanishGreetingService is of ES profile it got ignored. 
 */
