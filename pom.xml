@@ -8,12 +8,12 @@
 	<groupId>com.xyz.raul</groupId>
 	<artifactId>pet-clinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<modules>
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
 	</modules>
-			
+
 	<packaging>pom</packaging>
 
 	<name>pet-clinic</name>
@@ -28,6 +28,9 @@
 	</parent>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8
+		</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
 
