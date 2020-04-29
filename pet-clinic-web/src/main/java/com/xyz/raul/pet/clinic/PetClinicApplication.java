@@ -1,13 +1,13 @@
-package com.xyz.spring.raul;
+package com.xyz.raul.pet.clinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootDemoApplication {
+public class PetClinicApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootDemoApplication.class, args);
+		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
 }
