@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.xyz.raul</groupId>
-		<artifactId>pet-clinic</artifactId>
+		<groupId>com.xyz.spring.raul</groupId>
+		<artifactId>springboot-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 

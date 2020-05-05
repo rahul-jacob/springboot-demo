@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.xyz.raul</groupId>
-	<artifactId>pet-clinic</artifactId>
+	<groupId>com.xyz.spring.raul</groupId>
+	<artifactId>springboot-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
 	<modules>
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
@@ -16,7 +16,7 @@
 
 	<packaging>pom</packaging>
 
-	<name>pet-clinic</name>
+	<name>springboot-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 
